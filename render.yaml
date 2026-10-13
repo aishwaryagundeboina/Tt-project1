@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: campus-connect-backend
+    runtime: docker
+    dockerfilePath: ./campus-connect-backend/Dockerfile
+    dockerContext: ./campus-connect-backend
+    plan: free
+    region: oregon
+    envVars:
+      - key: PORT
+        value: 8080
