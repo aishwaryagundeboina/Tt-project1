@@ -1,0 +1,16 @@
+# Backend
+campus-connect-backend/target/
+campus-connect-backend/.mvn/
+campus-connect-backend/*.class
+
+# Frontend
+campus-connect-frontend/node_modules/
+campus-connect-frontend/dist/
+campus-connect-frontend/dist-ssr/
+
+# IDE / OS
+.vscode/
+.idea/
+*.iml
+*.DS_Store
+Thumbs.db
